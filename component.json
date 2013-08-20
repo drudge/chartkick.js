@@ -1,7 +1,7 @@
 {
   "name": "chartkick.js",
   "version": "1.1.0",
-  "main": "chartkick.js"
+  "main": "chartkick.js",
   "repo": "drudge/chartkick.js",
   "description": "Create beautiful Javascript charts with minimal code",
   "keywords": [
