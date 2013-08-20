@@ -6,6 +6,8 @@
  * MIT License
  */
 
+var $ = require('jquery');
+
 /*jslint browser: true, indent: 2, plusplus: true */
 /*global google, $*/
 
