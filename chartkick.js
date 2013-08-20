@@ -652,6 +652,11 @@
       setElement(element, dataSource, opts, processAreaData);
     }
   };
-
-  window.Chartkick = Chartkick;
+  
+  // check for nodeJS
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = Chartkick;
+  } else {
+    window.Chartkick = Chartkick;
+  }
 })();
